@@ -1,0 +1,500 @@
+    8  cd/
+    9  cd /
+   10  cd Users/laurent/site
+   11  cd Users/laurent/Sites/
+   12  ls
+   13  chmod 755 symphony/
+   14  sudo chmod 755 symphony/
+   15  ls -la
+   16  sudo chmod 755 symphony/
+   17  sudo chmod 777 symphony/
+   18  sudo chmod -R 755 symphony/
+   19  sudo chmod -R 777 symphony/
+   20  mysql
+   21  cd
+   22  mysql
+   23  which mysql
+   24  mysql -v
+   25  locate mysql
+   26  find mysql
+   27  which mysql
+   28  mysql -u root 
+   29  mysql -u root -p
+   30  mail
+   31  touch test.c
+   32  vi test.c 
+   33  cat test.c 
+   34  vi test.c 
+   35  gcc test.c 
+   36  vi test.c 
+   37  gcc test.c 
+   38  cat test.c 
+   39  gcc test.c -o test.out
+   40  cat test.out 
+   41  ./test.out 
+   42  odbjump -D test.out | grep -A20
+   43  odbjump -D test.out | grep -A20 main.:
+   44  odbjump -D test.out | grep -A20 main.:08048374 <main>
+   45  odbjump -D test.out | grep -A20 main.:08048374 <main>
+   46  odbjump -D test.out | grep -A20 main.:
+   47  odbjump -D test.out | grep -A20 main.:<main>
+   48  odbjump -D test.out | grep -A20 main.:08048374 <main>:
+   49  odbjump -D test.out | grep -A20 main.:08048374 <main>:
+   50  odbjump -D test.out | grep -A20 main.:<main>
+   51  odbjump -D test.out | grep -A20 main.:
+   52  odbjump -D test.out | grep -A20 main.:08048374 <main>
+   53  odbjump -D test.out | grep -A20 main.:08048374 <main>:
+   54  odbjump -D test.out | grep <main>:
+   55  odbjump -D test.out | grep <main>
+   56  odbjump -D test.out
+   57  odbjump -D test.c
+   58  odbjump -M intel test.out | grep -A20 main.:08048374 <main>:
+   59  odbjump -M intel -D test.out | grep -A20 main.:08048374 <main>:
+   60  objdump -D test.out | grep -A20 main.:08048374 <main>
+   61  objdump -D -M intel test.out | grep -A20 main.:08048374 <main>:
+   62  gdb -q test.out 
+   63  gdb -q test.out 
+   64  gdb -q test.out 
+   65  quit
+   66  exit
+   67  wget -pkK http://www.asylum.fr
+   68  brew install wget
+   69  cd
+   70  pwd
+   71  wget -pkK http://www.asylum.fr
+   72  wget -prkK http://www.asylum.fr
+   73  cat /var/log/apache2/error.log
+   74  cd /var/log/
+   75  ls
+   76  cat system.log
+   77  cat system.log | gerp 'apache'
+   78  cat system.log | grep 'apache'
+   79  cat system.log grep 'apache'
+   80  cat system.log grep 'sandbox'
+   81  cat system.log | grep 'sand*'
+   82  cat system.log | grep 'media'
+   83  cd
+   84  cd /etc/apache2/
+   85  ls
+   86  cd /etc/apache2/
+   87  cd /etc/apache2/
+   88  vim httpd.conf 
+   89  pas -a
+   90  ps -a
+   91  ps
+   92  ps top
+   93  which
+   94  cd xcode_projects/tuto_cp_43/
+   95  ls
+   96  ls -l
+   97  chmod 777 fichier1.rtf 
+   98  ls -l
+   99  cd tuto_cp_43
+  100  chmod 777 fichier1.rtf 
+  101  pwd
+  102  ls
+  103  ls -ls
+  104  cd fichier1.rtf fichier1.txt
+  105  cp fichier1.rtf fichier1.txt
+  106  ls -la
+  107  cd -
+  108  pwd
+  109  cp fichier1.rtf fichier1.txt
+  110  chmod 777 fichier1.txt 
+  111  cd /private/lo
+  112  cd /private/
+  113  ls
+  114  cd var/log/
+  115  ls
+  116  cd apache2/
+  117  ls
+  118  cat error_log >error.txt
+  119  sudo cat error_log | > error.txt
+  120  ls
+  121  cat error_log 
+  122  which mediainfo
+  123  mediainfo
+  124  /usr/local/bin/mediainfo
+  125  cat error_log 
+  126  tail error_log 
+  127  clear
+  128  tail -f error_log 
+  129  su
+  130  su passwd
+  131  sudo
+  132  dsenableroot
+  133  su
+  134  sudo
+  135  sudo vi /etc/apache2/httpd.conf 
+  136  su
+  137  su root
+  138  su
+  139  sudo vi /etc/apache2/httpd.conf 
+  140  dsenableroot
+  141  su
+  142  su
+  143  vim
+  144  sudo vim /etc/apache2/httpd.conf 
+  145  locate ~/.vimrc
+  146  sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+  147  locate ~/.vimrc
+  148  sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+  149  locate ~/.vimrc
+  150  locate ~/.vimrc
+  151  locate ~/.vimrc
+  152  cd /etc
+  153  ls
+  154  ls -l
+  155  touch .vimrc
+  156  sudo touch .vimrc
+  157  vi .vimrc 
+  158  sudo vi .vimrc 
+  159  sudo vi /etc/apache2/httpd.conf 
+  160  sudo vi .vimrc 
+  161  sudo vi /etc/apache2/httpd.conf 
+  162  sudo vim /etc/apache2/httpd.conf 
+  163  locate ~/.vimrc
+  164  locate ~/.profile
+  165  locate profile
+  166  locate vimrc
+  167  cd /usr/share/vim/
+  168  ls
+  169  cat vimrc 
+  170  cp vimrc vimrc_old
+  171  sudo cp vimrc vimrc_old
+  172  ls
+  173  sudo vimrc
+  174  sudo vi vimrc
+  175  sudo vim /etc/apache2/httpd.conf 
+  176  cp vimrc vimrc_oldchkshcesgckgz
+  177  sudo vi vimrc
+  178  sudo vim /etc/apache2/httpd.conf 
+  179  cat vi vimrc
+  180  pwd
+  181  sudo vim /etc/apache2/httpd.conf 
+  182  sudo vi vimrc
+  183  sudo vim /etc/apache2/httpd.conf 
+  184  ls
+  185  ls -lsa
+  186  cd /etc;ls
+  187  cd /etc
+  188  rm .vimrc 
+  189  sudo rm .vimrc 
+  190  ls
+  191  locat vimrc
+  192  locate vimrc
+  193  cd
+  194  touch test1.txt
+  195  cat 'avqhagqaf'>test1.txt 
+  196  echo 'avqhagqaf'>test1.txt 
+  197  vim73 test1.txt 
+  198  cd /usr/share/vim/vim73/
+  199  ls
+  200  cat vimrc_example.vim 
+  201  ls
+  202  cd syntax/
+  203  ls
+  204  history > history.txt
+  205  open history.txt 
+  206  ssh -l root djangogeek.com
+  207  python
+  208  exit
+  209  ls
+  210  cd..
+  211  ls
+  212  rails new rails_space
+  213  cd rails_space/
+  214  rails generate controller site index about help products
+  215  ls
+  216  gem rdoc --all
+  217  cd public/
+  218  rm index.html 
+  219  mkdir stylesheet
+  220  mkdir stylesheets
+  221  rm stylesheet
+  222  rm -rf stylesheet
+  223  ls
+  224  cd stylesheets/
+  225  touch site.css
+  226  cd ..
+  227  pwd
+  228  rm -rf stylesheets/
+  229  mysql - root -p
+  230  mysql -l root -p
+  231  mysql -u root 
+  232  mysql -u root -p
+  233  generate model user
+  234  rails generate model user
+  235  gem install mysql
+  236  bundle
+  237  gem install mysql -v '2.9.1'
+  238  locate mkmf.log
+  239  cat /Users/laurent/.rvm/gems/ruby-1.9.3-p448/gems/mysql-2.9.1/ext/mysql_api/mkmf.log
+  240  which mysql
+  241  mysql -v
+  242  rails generate model user
+  243  bundle install
+  244  bundle install
+  245  rails generate model user
+  246  pg
+  247  pgsql
+  248  psql
+  249  psql -v
+  250  psql --v
+  251  psql --version
+  252  ruby -version
+  253  rake db:create
+  254  rake db:migrate
+  255  POST www.djangogeek.com
+  256  cd..
+  257  twan rails_space/
+  258  cd rails_space/
+  259  rails s
+  260  cd..
+  261  gem_server
+  262  gem server
+  263  /Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2 ; exit;
+  264  cd rails_spacev2/
+  265  rails s
+  266  rails s
+  267  cd 
+  268  cd/
+  269  cd /etc
+  270  ls
+  271  sudo vi profile 
+  272  sudo vi bashrc 
+  273  cd
+  274  cd WEB_PROJECTS/Rails_projects/
+  275  subl rails_spacev2/
+  276  open -a SublimeText2
+  277  open -a Sublime Text2
+  278  open -a Sublime rails_space
+  279  subl
+  280  open -a Sublime Text2/Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2
+  281  open - a /Applications/Sublime Text 2.app/Contents/MacOS
+  282  open - a /Applications/Sublime Text 2.app/Contents/MacOS  rails_space
+  283  cd WEB_PROJECTS/Rails_projects/
+  284  ls
+  285  rails new rails_spacev2 --database=mysql
+  286  open -a sublime rails_spacev2/
+  287  open -a sublime2 rails_spacev2/
+  288  ls
+  289  cd rails_spacev2/
+  290  rake
+  291  rails g controller Site index about help
+  292  rails g scaffold Person Nom:string Prenom:string
+  293  rake db:migrate
+  294  rake db:migrate
+  295  rake
+  296  rake
+  297  rake db:migrate
+  298  rake
+  299  rails g scaffold Person Nom:string Prenom:string
+  300  rake db:migrate
+  301  cd public/;rm index.html
+  302  rake
+  303  rake db:migrate
+  304  rake db:migrate
+  305  rake
+  306  cd WEB_PROJECTS/Rails_projects/
+  307  rails new rails_spacev4 --database=mysql
+  308  twan rails_spacev4
+  309  cd rails_spacev4
+  310  rails g scaffold Person Pseudo:string Mail:string Age:integer
+  311  rake db:migrate
+  312  cd public/
+  313  rm index.html 
+  314  cd..
+  315  rails g controller Site index about help contact
+  316  rake db:migrate
+  317  rake db:migrate
+  318  rails remove scaffold Person
+  319  rails d scaffold Person
+  320  rake db:migrate
+  321  rake
+  322  rake db:drop
+  323  rake db:drop people
+  324  rake db:droptable
+  325  mysql
+  326  mysql -l root -p
+  327  mysql -u root -p
+  328  mysql -u root -p
+  329  rails s
+  330  cd WEB_PROJECTS/Rails_projects/rails_spacev5
+  331  twan cd..
+  332  cd..
+  333  twan rails_spacev5
+  334  cd rails_spacev5
+  335  cd public/
+  336  rm index.html 
+  337  top
+  338  cd WEB_PROJECTS/Rails_projects/depot/
+  339  rails s
+  340  cd..
+  341  cd rails_spacev5
+  342  rails s
+  343  cd ...
+  344  cd..
+  345  twan rails_spacev5
+  346  cd WEB_PROJECTS/Rails_projects/
+  347  rails new depot --database=mysql
+  348  twan depot/
+  349  cd depot/
+  350  cd public/
+  351  rm index.html 
+  352  cd ..
+  353  rail g controller admin scaffold Product
+  354  rails g controller admin scaffold Product
+  355  rake db:create all
+  356  rake db:create all
+  357  rake db:migrate
+  358  rails d admin
+  359  rails d controller admin
+  360  rake db:migrate
+  361  rake
+  362  rails g controller admin
+  363  rake db:migrate
+  364  bundle install
+  365  bundle
+  366  rails d controller admin
+  367  rake db:migrate
+  368  rake
+  369  rails g scaffold Products title:string description:text image_url:string id:integer 
+  370  rake db:migrate
+  371  rails g controller admin
+  372  cd ..
+  373  rails new rails_spacev5 --database=mysql
+  374  cd rails_spacev5
+  375  rails db:migrate
+  376  rake db:migrate
+  377  rake
+  378  rails g scaffold Person Pseudo:string Mail:string Age:integer
+  379  rake db:migrate
+  380  rails g controller Site index about help contact
+  381  cd ..
+  382  cd rails_space
+  383  rails s
+  384  cd..
+  385  cd rails_spacev5
+  386  rails s
+  387  rails s
+  388  /Applications/Postgres93.app/Contents/MacOS/bin/psql ; exit;
+  389  rails g scaffold Person nam:string 
+  390  rails d scaffold Person
+  391  rails g scaffold Person Pseudo:string Mail:string Age:integer 
+  392  rails db:migrate
+  393  rake db:migrate
+  394  cd ..
+  395  cd rails_spacev5
+  396  bundle install
+  397  cd ..
+  398  rm -rf rails_spacev5
+  399  ls
+  400  rails new testheroku --database=mysql
+  401  twan testheroku/
+  402  rails g scaffold Person nom:string prenom:string
+  403  cd testheroku ; rails g scaffold Person nom:string prenom:string
+  404  rake db:migrate
+  405  cd public/; rm index.html
+  406  ls
+  407  cd..
+  408  bundle install --without production
+  409  rake assets:precompile
+  410  git init
+  411  git add.
+  412  git add .
+  413  git status
+  414  git commit -m "initial committdfgh"
+  415  heroku create
+  416  git push heroku master
+  417  heroku keys:add
+  418  git push heroku master
+  419  sudo gem install heroku
+  420  heroku key:add
+  421  heroku keys:add
+  422  heroku create
+  423  heroku create
+  424  git push keroku master
+  425  git push origin master  
+  426  git remote add origin git@github.com:djangogeek/testheroku.git
+  427  git push origin master  
+  428  git remote add origin git@github.com:djangogeek/testheroku.git
+  429  git push origin master  
+  430  git push
+  431  git init
+  432  git add .
+  433  git status
+  434  git commit -m "initial commit"
+  435  git log
+  436  git remote add origin git@github.com:djangogeek/mbb.git
+  437  git push
+  438  git pull
+  439  cd ..
+  440  rm -rf testheroku/
+  441  git push
+  442  git config --global user.name "djangogeek"
+  443  git config --global user.email laurent.benedetti@gmail.com
+  444  rails new hero --database=mysql
+  445  cd hero/
+  446  git init
+  447  git add .
+  448  rails g scaffold Person nom:string mail:string
+  449  rake db:migrate
+  450  git add .
+  451  bundle install --without production
+  452  git status
+  453  git add .
+  454  git commit -m "initial commit"
+  455  git remote add origin https://github.com/djangogeek/hero.git
+  456  git push -u origin master
+  457  heroku create
+  458  git push heroku master
+  459  heroku rake db:migrate
+  460  rake assets:precompile
+  461  heroku open
+  462  which psql
+  463  psql -h localhost
+  464  psql --v
+  465  psql --version
+  466  brew remove pgsql
+  467  brew remove psql
+  468  brew remove pg
+  469  brew remove pgsql
+  470  brew remove psql
+  471  pg
+  472  psql
+  473  pgsql
+  474  psql
+  475  heroku login
+  476  ruby -v
+  477  cd ..
+  478  twan hero/
+  479  cd hero/public/
+  480  rm index.html 
+  481  rails s
+  482  which psql
+  483  psql --list
+  484  psql -h localhost
+  485  psql --version
+  486  PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+  487  which psql
+  488  psql -h localhost
+  489  brew install pgsql
+  490  brew install psql
+  491  brew install postgre
+  492  brew install postgresql
+  493    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+  494  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+  495  initdb /usr/local/var/postgres -E utf8
+  496    pg_ctl -D /usr/local/var/postgres -l logfile start
+  497  which psql
+  498  psql -h localhost
+  499  psql version 9.1, server version 9.3.
+  500  which psql
+  501  psql --version
+  502  cd WEB_PROJECTS/Rails_projects/
+  503  rails new pgtest -d postgresql
+  504  cd pgtest/
+  505  rails g scaffold Person nom:string mail:string
+  506  rake db:migrate
+  507  history > history.txt

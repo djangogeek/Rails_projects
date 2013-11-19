@@ -1,14 +1,6 @@
-RailsSpace::Application.routes.draw do
-  resources :people
+RailsSpacevpg::Application.routes.draw do
+  resources :products
 
-
-  get "site/index"
-
-  get "site/about"
-
-  get "site/help"
-
-  get "site/products"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

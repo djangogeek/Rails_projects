@@ -1,14 +1,11 @@
-RailsSpace::Application.routes.draw do
-  resources :people
-
-
+RailsSpacev4::Application.routes.draw do
   get "site/index"
 
   get "site/about"
 
   get "site/help"
 
-  get "site/products"
+  get "site/contact"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

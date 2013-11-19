@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  Pseudo: MyString
+  Mail: MyString
+  Age: 1
+
+two:
+  Pseudo: MyString
+  Mail: MyString
+  Age: 1
